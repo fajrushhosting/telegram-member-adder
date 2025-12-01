@@ -1,0 +1,28 @@
+cat > config.json << 'EOF'
+{
+  "telegram": {
+    "api_id": "GANTI_DENGAN_API_ID",
+    "api_hash": "GANTI_DENGAN_API_HASH",
+    "phone": "GANTI_DENGAN_NOMOR_KAMU"
+  },
+  "settings": {
+    "delay_between_add": 30,
+    "max_per_day": 50,
+    "auto_retry": true,
+    "retry_delay": 60
+  },
+  "files": {
+    "members": "members.csv",
+    "logs": "logs/",
+    "sessions": "sessions/"
+  },
+  "requirements": {
+    "python": "3.7+",
+    "packages": [
+      "telethon",
+      "colorama",
+      "python-dotenv"
+    ]
+  }
+}
+EOF
