@@ -1,0 +1,17 @@
+cat > members.csv << 'EOF'
+# Format: username (with or without @)
+# One username per line
+# Remove # to activate
+
+# REAL WORKING EXAMPLE:
+# @username_target
+# usernametanpaat
+# 628123456789  # Phone number (if in contacts)
+
+# Contoh (hapus # untuk aktif):
+# @john_doe
+# jane_smith
+# bob123
+
+# Tambahkan username target di bawah:
+EOF
